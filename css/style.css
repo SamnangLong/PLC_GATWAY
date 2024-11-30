@@ -1,0 +1,1086 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, #ABDCFF, #0396FF, #ABDCFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HOLD CONTAIN */
+.container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    width: 378px;
+    height: 806px;
+    /* background-color: chartreuse; */
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* --MAIN TITLE-- */
+.container .TOP{
+    width: 378px;
+    height: 50px;
+    /* background-color: blue; */
+    background-color: #030880;
+    margin-top: -10px;
+}
+.container .TOP img{
+    height: 50px;
+    width: 60px;
+    float: left;
+}
+.container .TOP h1{
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+/* --ALL DATA-- */
+.BOTTOM{
+    width: 375px;
+    height: 753px;
+    /* background-color:blueviolet; */
+    margin-top: -15px;
+}
+
+
+
+/* --DISPLAY DATA AND CONTROL-- */
+.BOTTOM .left{
+    width: 375px;
+    height: 410px;
+    /* background-color:aqua; */
+}
+.BOTTOM .left .top{
+    width: 373px;
+    height: 240px;
+    margin-left: 1px;
+    background-color:burlywood;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+    border-radius: 7.5px;
+}
+.BOTTOM .left .top .title{
+    display: block;
+    width: 369.8px;
+    height: 40px;
+    /* background-color:fuchsia; */
+    background-color: #030880;
+    margin-top: 25px;
+    border-radius: 7.5px;
+    border: solid black 2px;
+}
+.BOTTOM .left .top .title h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7px;
+    /* padding-top: 10px; */
+}
+
+
+
+/* --DISPLAY VALUE S V F I-- */
+.BOTTOM .left .top .data{
+    display: block;
+    width: 375px;
+    height: 195px;
+    /* background-color:fuchsia; */
+    margin-top: 2px;
+}
+.BOTTOM .left .top input{
+    height: 30px;
+    width: 80px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+.BOTTOM .left .top .data .header{
+    width: 375px;
+    height: 97.5px;
+    /* background-color: cadetblue; */
+}
+.BOTTOM .left .top .data .header .top_left{
+    width: 50%;
+    height: 79.5px;
+    /* background-color:chartreuse; */
+    float: left;
+    padding-top: 18px;
+    font-size: 17px;
+}
+.BOTTOM .left .top .data .header .top_right{
+    width: 50%;
+    height: 79.5px;
+    /* background-color:red; */
+    float: left;
+    padding-top: 18px;
+    font-size: 17px;
+}
+.BOTTOM .left .top .data .footer{
+    width: 373px;
+    height: 97.5px;
+    /* background-color:darkgoldenrod; */
+}
+.BOTTOM .left .top .data .footer .bottom_left{
+    width: 50%;
+    height: 79.5px;
+    /* background-color:red; */
+    float: left;
+    padding-top: 18px;
+    font-size: 17px;
+}
+.BOTTOM .left .top .data .footer .bottom_right{
+    width: 50%;
+    height: 79.5px;
+    /* background-color:  chartreuse; */
+    float: left;
+    padding-top: 18px;
+    font-size: 17px;
+}
+.BOTTOM .left .top .data ::placeholder{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* --BUTTON CONTROL-- */
+.BOTTOM .left .bottom{
+    width: 373px;
+    height: 165px;
+    background-color:burlywood;
+    margin-top: -15px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+    border-radius: 7.5px;
+    margin-left: 1px;
+}
+.BOTTOM .left .bottom .title{
+    height: 40px;
+    width: 369.8px;
+    /* background-color:pink; */
+    background-color: #030880;
+    margin-top: 20px;
+    border: solid black 2px;
+    border-radius: 7.5px;
+    /* padding-top: 0px; */
+}
+.BOTTOM .left .bottom .title h2{
+    font-size: 19px;
+    /* padding-top: 4px; */
+    margin-top: 10px;
+    text-align: center;
+}
+.BOTTOM .left .bottom .button{
+    height: 120px;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.BOTTOM .left .bottom .button .top_btn{
+    height: 65px;
+    width: 100%;
+    /* background-color: red; */
+}
+.BOTTOM .left .bottom .button .top_btn .btn_forward{
+    height: 55px;
+    width: 50%;
+    /* background-color: yellow; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.BOTTOM .left .bottom .button .top_btn .btn_reverse{
+    height: 55px;
+    width: 50%;
+    /* background-color: green; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.BOTTOM .left .bottom .button .bottom_btn{
+    height: 60px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5px; */
+    margin-top: -5px;
+}
+
+/* --RELAY CONTROL-- */
+.BOTTOM .right{
+    width: 373px;
+    height: 260px;
+    background-color:burlywood;
+    margin-top: 10px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+    border-radius: 7.5px;
+    margin-left: 1px;
+}
+.BOTTOM .right .title{
+    height: 40px;
+    width: 369.8px;
+    /* background-color: crimson; */
+    background-color: #030880;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 2px;
+    border-radius: 7.5px;
+}
+.BOTTOM .right .title h2{
+    font-size: 20px;
+}
+.BOTTOM .right .lamp{
+    height: 105px;
+    width: 373px;
+    /* background-color: blue; */
+    margin-top: 2px;
+}
+.BOTTOM .right .lamp .lapm_relay1{
+    height: 110px;
+    width: 50%;
+    /* background-color: deeppink; */
+    float: left;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+.BOTTOM .right .lamp .lapm_relay1 .titles{
+    height: 20px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.BOTTOM .right .lamp .lapm_relay1 .lamp_in{
+    height: 75px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.BOTTOM .right .lamp .lapm_relay2{
+    height: 110px;
+    width: 50%;
+    /* background-color: greenyellow; */
+    float: left;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+.BOTTOM .right .lamp .lapm_relay2 .titles{
+    height: 20px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.BOTTOM .right .lamp .lapm_relay2 .lamp_in{
+    height: 75px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.BOTTOM .right .button_relay{
+    height: 60px;
+    width: 373px;
+    /* background-color:khaki; */
+}
+.BOTTOM .right .button_relay .button_relay1{
+    height: 45px;
+    width: 50%;
+    /* background-color: yellow; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.BOTTOM .right .button_relay .button_relay2{
+    height: 45px;
+    width: 50%;
+    /* background-color: green; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+.BOTTOM .right .button_stopall{
+    height: 50px;
+    width: 373px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 5px; */
+    margin-top: -5px;
+}
+
+
+
+/* --OWNER-- */
+.BOTTOM .powerby{
+    width: 378px;
+    height: 50px;
+    /* background-color:aqua; */
+    background-color: #030880;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BOTTOM .powerby h3{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ---BUTTON FORWARD--- */
+.btn_forward button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+.btn_forward .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.btn_forward .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(130deg 100% 12%) 0%,
+       hsl(150deg 100% 25%) 8%,
+       hsl(150deg 100% 25%) 92%,
+       hsl(130deg 100% 12%) 100%
+     );
+}
+   
+.btn_forward .front {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(130deg 100% 32%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.btn_forward button:hover {
+    filter: brightness(110%);
+}
+   
+.btn_forward button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.btn_forward button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+.btn_forward button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.btn_forward button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+.btn_forward button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+
+/* ---BUTTON REVERSE--- */
+.btn_reverse button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+.btn_reverse .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.btn_reverse .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(130deg 100% 12%) 0%,
+       hsl(150deg 100% 25%) 8%,
+       hsl(150deg 100% 25%) 92%,
+       hsl(130deg 100% 12%) 100%
+     );
+}
+   
+.btn_reverse .front {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(130deg 100% 32%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.btn_reverse button:hover {
+    filter: brightness(110%);
+}
+   
+.btn_reverse button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.btn_reverse button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+.btn_reverse button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.btn_reverse button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+.btn_reverse button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+/* ---BUTTON STOP--- */
+.bottom_btn button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+.bottom_btn .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.bottom_btn .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(340deg 100% 16%) 0%,
+       hsl(340deg 100% 32%) 8%,
+       hsl(340deg 100% 32%) 92%,
+       hsl(340deg 100% 16%) 100%
+     );
+}
+   
+.bottom_btn .front {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.bottom_btn button:hover {
+    filter: brightness(110%);
+}
+   
+.bottom_btn button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.bottom_btn button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+.bottom_btn button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.bottom_btn button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+.bottom_btn button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+
+/* ---BUTTON FORWARD--- */
+.button_relay1 button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+.button_relay1 .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.button_relay1 .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(130deg 100% 12%) 0%,
+       hsl(150deg 100% 25%) 8%,
+       hsl(150deg 100% 25%) 92%,
+       hsl(130deg 100% 12%) 100%
+     );
+}
+   
+.button_relay1 .front {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(130deg 100% 32%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.button_relay1 button:hover {
+    filter: brightness(110%);
+}
+   
+.button_relay1 button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.button_relay1 button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+.button_relay1 button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.button_relay1 button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+.button_relay1 button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+
+/* ---BUTTON REVERSE--- */
+.button_relay2 button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+.button_relay2 .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.button_relay2 .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(130deg 100% 12%) 0%,
+       hsl(150deg 100% 25%) 8%,
+       hsl(150deg 100% 25%) 92%,
+       hsl(130deg 100% 12%) 100%
+     );
+}
+   
+.button_relay2 .front {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(130deg 100% 32%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.button_relay2 button:hover {
+    filter: brightness(110%);
+}
+   
+.button_relay2 button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.button_relay2 button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+.button_relay2 button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.button_relay2 button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+.button_relay2 button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+/* ---BUTTON STOP--- */
+.button_stopall button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+   
+.button_stopall .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.button_stopall .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+       to left,
+       hsl(340deg 100% 16%) 0%,
+       hsl(340deg 100% 32%) 8%,
+       hsl(340deg 100% 32%) 92%,
+       hsl(340deg 100% 16%) 100%
+     );
+}
+   
+.button_stopall .front {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 35px;
+    width: 110px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+       600ms
+       cubic-bezier(.3, .7, .4, 1);
+}
+   
+.button_stopall button:hover {
+    filter: brightness(110%);
+}
+   
+.button_stopall button:hover .front {
+    transform: translateY(-6px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.button_stopall button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+   
+.button_stopall button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+       250ms
+       cubic-bezier(.3, .7, .4, 1.5);
+}
+   
+.button_stopall button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+   
+.button_stopall button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+
+#checkbox {
+    display: none;
+}
+.switch {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 5, 5);
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 126, 126);
+    box-shadow: 0px 0px 3px rgb(248, 248, 248) inset;
+} 
+.powersign {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border: 4px solid rgb(248, 248, 248);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.powersign::before {
+    content: "";
+    width: 8px;
+    height: 60%;
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    top: -60%;
+    z-index: 2;
+}
+.powersign::after {
+    content: "";
+    width: 3px;
+    height: 60%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: -60%;
+    z-index: 3;
+}
+#checkbox:checked + .switch .powersign {
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(151, 243, 255),
+      0px 0px 5px rgb(151, 243, 255) inset;
+} 
+#checkbox:checked + .switch .powersign::after {
+    background-color: rgb(150, 255, 194);
+}
+#checkbox:checked + .switch {
+    box-shadow: 0px 0px 1px rgb(150, 255, 194) inset,
+      0px 0px 2px rgb(150, 255, 194) inset,
+      0px 0px 10px rgb(150, 255, 194) inset,
+      0px 0px 40px rgb(150, 255, 194),
+      0px 0px 100px rgb(150, 255, 194),
+      0px 0px 5px rgb(150, 255, 194);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(136, 219, 150);
+} 
+#checkbox:checked + .switch .powersign::before {
+    background-color: rgb(255, 255, 255);
+}
+  
+  
+  
+  
+#checkbox1 {
+    display: none;
+}
+.switch1 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 5, 5);
+    border-radius: 50%;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 126, 126);
+    box-shadow: 0px 0px 3px rgb(248, 248, 248) inset;
+}
+.powersign1 {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border: 4px solid rgb(248, 248, 248);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.powersign1::before {
+    content: "";
+    width: 8px;
+    height: 60%;
+    background-color: rgb(248, 248, 248);
+    position: absolute;
+    top: -60%;
+    z-index: 2;
+}
+.powersign1::after {
+    content: "";
+    width: 3px;
+    height: 60%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: -60%;
+    z-index: 3;
+}
+#checkbox1:checked + .switch1 .powersign1 {
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(151, 243, 255),
+      0px 0px 5px rgb(151, 243, 255) inset;
+}
+#checkbox1:checked + .switch1 .powersign1::after {
+    background-color: rgb(150, 255, 194);
+}
+#checkbox1:checked + .switch1 {
+    box-shadow: 0px 0px 1px rgb(150, 255, 194) inset,
+      0px 0px 2px rgb(150, 255, 194) inset,
+      0px 0px 10px rgb(150, 255, 194) inset,
+      0px 0px 40px rgb(150, 255, 194),
+      0px 0px 100px rgb(150, 255, 194),
+      0px 0px 5px rgb(150, 255, 194);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(136, 219, 150);
+}
+#checkbox1:checked + .switch1 .powersign1::before {
+    background-color: rgb(255, 255, 255);
+}
