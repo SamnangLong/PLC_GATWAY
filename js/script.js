@@ -1,3 +1,5 @@
+// Variable to store the last received speed
+let lastSetSpeed = null;
 var connection_status= false;
 
 
@@ -68,14 +70,22 @@ function onConnectionLost(responseObject) {
 
 
 
-// called when a message arrives
 function onMessageArrived(message) {
-  console.log("onMessageArrived:"+message.payloadString);
-    
+  console.log("Message arrived on topic " + message.destinationName + ": " + message.payloadString);
+
   const values = message.payloadString.split(',');
   // Display Data Voltage Current Frequency
-  if (values[0]=='setspeed'){
-    document.getElementById('box_set_speed').value = values[1] || '';
+  if (values[0] === 'setspeed') {
+    const currentSpeed = values[1];
+
+    // Check if the speed is different from the last speed
+    if (currentSpeed !== lastSetSpeed) {
+        lastSetSpeed = currentSpeed; // Update the last received speed
+        document.getElementById('box_set_speed').value = currentSpeed || '';
+        console.log(`Updated speed to: ${currentSpeed}`);
+      } else {
+        console.log(`Duplicate speed value ignored: ${currentSpeed}`);
+      }
   }
 
   // Display Data Voltage Current Frequency
@@ -85,14 +95,18 @@ function onMessageArrived(message) {
     document.getElementById('box_current').value = values[4] || '';
   }
 
-  // // Display Data Speed
-  // if (values[0].startsWith('setspeed:')) {
-  //   const speedValue = values[0].split(':')[1]; // Extract the value after 'setspeed:'
-  //   document.getElementById('box_set_speed').value = speedValue || '';
+  // Display ALLARM
+  // if (values[0]=='ALLARM') {
+    
   // }
 
-  // if (values[0]=='L1'&&values[1]=='10L2'){
-  //   document.getElementById('checkbox')= checked;
+  // Display LAMP
+  // if (values[0]=='LAMP'){
+  //   if (values[1]=='L1'&&values[2]=='10'){
+  //     document.getElementById('checkbox')= checked;
+  //   } if (values[3]=='L2'&&values[4]=='10'){
+  //     document.getElementById('checkbox1')= checked;
+  //   }
   // }
 
   // if (values[1]=='10L2' || values[1]=='0L2' && values[2]=='10'){

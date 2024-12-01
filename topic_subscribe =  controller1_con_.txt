@@ -1,0 +1,19 @@
+        topic_subscribe =  controller1_con_pub1
+        topic_subscribe2 = setspeed
+        topic_publish1 =   controller1_data 
+        topic_publish2 =   ALLARM
+        topic_publish3 =   controller1_con_status_speed
+        topic_publish4 =   status lamp
+***************************************************************************************************
++subscribe1
+       Pub,c1,1/1,c2,1/1,c3,1/1/1; note ( Pub,c1,for/re,c2,stop/R1,c3,R2/stop R/reset)
++subscribe2
+       setspeed:Hz;
++publish1
+      data,c1,Hz,V,A;
++publish2
+      ALARM=String(E);
++publish3
+      setspeed:Hz;
++publish4
+      LAMP=L1,10or0L2,10or0;
